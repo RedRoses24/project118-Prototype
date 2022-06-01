@@ -1,0 +1,46 @@
+#score_update{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Special Elite', 'fantasy';
+    float: left;
+    font-weight: bold;
+}
+#timer{
+    padding-top:10px;
+    font-size:25px;
+    float: right;
+    padding-right: 5px;
+    font-family: 'Special Elite', 'fantasy';
+    font-weight: bold;
+    margin-right: 100px;
+}
+body{
+    background-image:"background.png";
+}
+h1{
+    background-color: cornsilk;
+    color:black;
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Special Elite', 'fantasy';
+    font-size: 25px;
+    color: black;
+}
+#sketch_to_be_drawn{
+    font-family: 'Special Elite', 'fantasy';
+    font-size: 25px;
+    color: red;
+}
+canvas{
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes animation1{
+    from{box-shadow: 2px 2px 40px rgb(229, 24, 10);}
+    to{box-shadow: 2px 2px 40px rgb(39, 170, 236);}
+}
